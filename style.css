@@ -73,6 +73,8 @@ main {
     display: flex;
     width:400%;
 }
+
+
 .main_photo ul a {font-size: 6.25rem;color: rgba( 255, 255, 255, .7 );}
 
 .main_photo ul{ 
@@ -259,6 +261,7 @@ hr{
     align-content:stretch}
 
 .feature_list li{
+    font-weight: bold;
     width:260; height: 400px;
     margin-top: 145px;
     margin: 0 auto ;  
