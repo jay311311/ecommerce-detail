@@ -234,9 +234,12 @@ hr{
 
 .npay .npay_logo_img{
     width: 80px;
-    height: 11px;
+    height: 35px;
     overflow: hidden;
 }
+
+
+
 
 .npay_buy{    
     background: #18CE60;
@@ -476,7 +479,7 @@ hr{
     margin-bottom: 24px;
 }
 
-.cart_list{ font-size:  1.5rem}
+.cart_list{ font-size:  1.2rem}
 
 .cart_list li{ margin-bottom: 5px;}
 
@@ -484,7 +487,7 @@ hr{
 
 .client_part>div{
     margin: 0 auto;
-    width: 674px;
+    width: 40%;
     height: 100%;
 }
 
@@ -502,7 +505,7 @@ hr{
 
 .client_part  li{
     margin: 10px 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .client_part  li span{
@@ -776,7 +779,9 @@ footer p {
         height: auto;
         margin: 0 30%;
     }
-    
+
+    .cart_list{font-size: 1rem;}
+
     .cart_list li{ 
         display: flex; 
         flex-wrap:wrap ;
@@ -804,7 +809,11 @@ footer p {
     nav{width:100%;
         margin:0;
     } 
-
+    .navigator_menu.h_fixed{
+       top:93vh;
+        
+       
+    }
     .navigator_icon svg{
         padding: 5px;
         font-size: 1.2rem;
@@ -818,8 +827,15 @@ footer p {
 
     .main_photo{width: 100%;}
 
-    .product{width:390px;}
+    .product{width:300px;}
 
+    .product_size_list button{height:30px;}
+
+    .product .title h3{
+        width:300px;
+        font-size: 1rem;
+        font-weight: 800;
+    }
     .navigator_menu {
         position: absolute;
         right: 0;
@@ -830,6 +846,12 @@ footer p {
       font-size:1rem; 
       width:68px;
     }
+    .navigator_menu a{
+        line-height: 44px;
+    }
+    .npay{width:290px}
+
+    .feature_list li p{font-size: 1rem;}
 
     .texture {height: 250px;}
 
@@ -851,7 +873,6 @@ footer p {
         width: 300px;
     }
 
-    
 
     .client_part>div {margin-left: auto;}
 
