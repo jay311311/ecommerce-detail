@@ -93,12 +93,9 @@ main> section{ margin:0 auto;}
     width:400%;
 }
 
-.main_photo ul a {
-    font-size: 6.25rem;
-    color: rgba( 255, 255, 255, .7 );
-}
-
 .main_photo ul{ 
+    font-size:3rem;
+    color: rgb(255, 255, 255);
     width: 100%;
     position: absolute;
     top: 40%;
